@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/stats-levene-test",
+  "version": "0.0.0",
+  "description": "Levene's test for equal variances.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-levene-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "summary",
+    "test",
+    "hypothesis",
+    "variance",
+    "equal",
+    "levene"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
