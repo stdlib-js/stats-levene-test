@@ -43,14 +43,30 @@ Levene's test is used to test the null hypothesis that the variances of `k` grou
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-levene-test
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import leveneTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-levene-test@esm/index.mjs';
+var leveneTest = require( '@stdlib/stats-levene-test' );
 ```
 
 #### leveneTest( x\[, y, ..., z]\[, opts] )
@@ -159,13 +175,8 @@ console.log( out.print() );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import leveneTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-levene-test@esm/index.mjs';
+```javascript
+var leveneTest = require( '@stdlib/stats-levene-test' );
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
@@ -197,10 +208,6 @@ var table = out.print();
 
     Test Decision: Fail to reject null in favor of alternative at 5% significance level
 */
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -237,7 +244,7 @@ var table = out.print();
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -254,7 +261,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -299,9 +306,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/vartest]: https://github.com/stdlib-js/stats-vartest/tree/esm
+[@stdlib/stats/vartest]: https://github.com/stdlib-js/stats-vartest
 
-[@stdlib/stats/bartlett-test]: https://github.com/stdlib-js/stats-bartlett-test/tree/esm
+[@stdlib/stats/bartlett-test]: https://github.com/stdlib-js/stats-bartlett-test
 
 <!-- </related-links> -->
 
