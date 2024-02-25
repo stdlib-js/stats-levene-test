@@ -50,7 +50,7 @@ Levene's test is used to test the null hypothesis that the variances of `k` grou
 ## Usage
 
 ```javascript
-import leveneTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-levene-test@esm/index.mjs';
+import leveneTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-levene-test@v0.2.1-esm/index.mjs';
 ```
 
 #### leveneTest( x\[, y, ..., z]\[, opts] )
@@ -165,7 +165,7 @@ console.log( out.print() );
 <body>
 <script type="module">
 
-import leveneTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-levene-test@esm/index.mjs';
+import leveneTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-levene-test@v0.2.1-esm/index.mjs';
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
