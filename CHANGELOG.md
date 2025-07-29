@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-07-29)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#7750](https://github.com/stdlib-js/stdlib/issues/7750)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`7174b1d`](https://github.com/stdlib-js/stdlib/commit/7174b1d9840374153f03de7ef79ac8112e4fdd17) - **chore:** fix EditorConfig lint errors [(#7764)](https://github.com/stdlib-js/stdlib/pull/7764) _(by Vansh Choudhary)_
 -   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
 
 </details>
@@ -19,6 +32,18 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Vansh Choudhary
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
